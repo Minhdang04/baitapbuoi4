@@ -1,0 +1,121 @@
+
+.head {
+    text-align: center;
+    background: linear-gradient(to right, #ecf0ff 50%, white 50%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.tag, .in4 {
+    display: inline-block;
+}
+.bo {
+    display: flex;
+    transform: translate(-50%'-50%');
+}
+img {
+    height: 650px;
+    width: 45%;
+}
+.tieusu {
+    width: 50%;
+}
+.putindaide {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+header{
+    background-color: #cccccc;
+    min-height: 70px;
+    padding: 15px;
+}
+main{
+    background-color: #dddddd;
+    min-height: 300px;
+    padding: 7.5px 15px;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-form{
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px #cccccc;
+    border-radius: 10px;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.btn-box{
+    text-align: right;
+    margin-top: 30px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: #009999;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+h4 {
+    color: blue;
+}
+.content {
+    text-align: center;
+}
+footer {
+    background: rgb(44, 37, 37);
+    width: 100%;
+    height: 40vh;
+    color: white;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.boncaihop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-spacing: 60px;
+}
+.mot, .hai, .ba, .bon {
+    border: 3px ridge rgb(202, 199, 199);
+    text-align: center;
+}
+.act {
+    display: flex;
+    flex-direction: row;
+}
+.canhact {
+    width: 30%;
+    text-align: right;
+    margin-right: 20px;
+}
+.actbe {
+    width: 70%;
+    text-align: left;
+}
